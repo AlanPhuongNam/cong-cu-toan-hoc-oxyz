@@ -2,27 +2,6 @@
 
 Website học tập và tính toán hình học giải tích không gian Oxyz, giao diện tiếng Việt kết hợp thuật ngữ tiếng Anh.
 
-## Chạy thử trên máy tính
-1. Tải và giải nén `oxyz-geometry-lab.zip`.
-2. Mở thư mục `oxyz-geometry-website`.
-3. Mở `index.html` bằng Chrome, Edge hoặc Firefox.
-
-Các thư viện Three.js và MathJax được tải từ CDN, vì vậy cần kết nối Internet để hiển thị phần 3D và công thức đẹp. Các phép tính JavaScript chạy ngay trên trình duyệt.
-
-## Đưa website lên GitHub Pages
-1. Đăng nhập GitHub và chọn **New repository**.
-2. Đặt tên, ví dụ `oxyz-geometry-lab`. Chọn **Public**, sau đó **Create repository**.
-3. Trong repository, chọn **Add file → Upload files**.
-4. Tải lên toàn bộ nội dung bên trong thư mục `oxyz-geometry-website` (không chỉ tải file ZIP). Đảm bảo `index.html`, `styles.css`, `app.js` nằm ở thư mục gốc của repository.
-5. Chọn **Commit changes**.
-6. Mở **Settings → Pages**.
-7. Ở **Build and deployment**, chọn **Deploy from a branch**.
-8. Chọn branch `main`, folder `/(root)`, rồi nhấn **Save**.
-9. Đợi GitHub triển khai. Địa chỉ website thường có dạng:
-   `https://TEN-TAI-KHOAN.github.io/oxyz-geometry-lab/`
-
-Nếu thay đổi mã nguồn, tải các file mới lên và commit lại; GitHub Pages sẽ tự cập nhật.
-
 ## Cấu trúc thư mục
 - `index.html`: cấu trúc trang và nội dung.
 - `styles.css`: giao diện responsive.
